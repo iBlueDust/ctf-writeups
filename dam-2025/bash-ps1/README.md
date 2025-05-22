@@ -54,7 +54,7 @@ function fun2 {
 }
 ```
 
-Note that the letters in `$GLOBAL:FILE` are sorted based on the Powershell ordering and deduplicated.
+Note that the letters in `$GLOBAL:ALPHABET` are sorted based on the Powershell ordering and deduplicated.
 
 Commands are then elaborately executed as
 ```powershell
