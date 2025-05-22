@@ -8,3 +8,8 @@
 
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve LF line endings
+dam-2025/bash-ps1/enc -text
+dam-2025/bash-ps1/key -text
+dam-2025/bash-ps1/dec -text

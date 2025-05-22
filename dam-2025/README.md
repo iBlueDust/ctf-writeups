@@ -8,3 +8,4 @@ There were relatively few challenges in this CTF, and it lasted 36 hours.
 
 ## Contents
 - [pwn/dnd](dnd/) - A ROP ret2libc challenge
+- [rev/bash.ps1](bash-ps1/) - A PowerShell reverse engineering challenge
