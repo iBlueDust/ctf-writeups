@@ -5,4 +5,4 @@ These are writeups for various Capture The Flag (CTF) challenges that I have par
 Credit goes to the authors of the challenges, and I have made every effort to give credit where it is due. If you see any errors or omissions, please let me know. Thank you for all CTF challenge authors for your hard work and creativity.
 
 ## Contents
-
+- 🚧 [DamCTF 2025](dam-2025/) (under construction) by Oregon State University Security Club
