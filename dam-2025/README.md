@@ -6,6 +6,9 @@ DamCTF 2025 is held by the Oregon State University Security Club. It is a jeopar
 
 There were relatively few challenges in this CTF, and it lasted 36 hours.
 
+The flag takes the form `dam{...}`.
+
 ## Contents
 - [pwn/dnd](dnd/) - A ROP ret2libc challenge
 - [rev/bash.ps1](bash-ps1/) - A PowerShell reverse engineering challenge
+- [misc/RISCy Business](riscy-business/) - A simple reverse engineering challenge obfuscated by amount of code
